@@ -5,8 +5,8 @@
 <p align="center">
   <a href="#-project">Project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-preview">Preview</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#techs">Techs</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#todolist">Todo list</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-techs">Techs</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-todo_list">Todo_List</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-layout">Getting started</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-license">License</a>
@@ -46,15 +46,15 @@ This project was developed using the following techs:
 - [TypeScript](https://www.typescriptlang.org/)
 - [CSS Modules](https://github.com/css-modules/css-modules)
 
-## 🗒 Todo list
+## 🗒 Todo_List
 
-- <input type="checkbox" disabled checked /> Light/Dark Mode
-- <input type="checkbox" disabled checked /> README
-- <input type="checkbox" disabled /> Github Authentication
-- <input type="checkbox" disabled /> Responsiveness
-- <input type="checkbox" disabled /> Sidebar
-- <input type="checkbox" disabled /> Leader board
-- <input type="checkbox" disabled /> Update Modal Component
+- [x] Light/Dark Mode
+- [x] README
+- [ ] Github Authentication
+- [ ] Responsiveness
+- [ ] Sidebar
+- [ ] Leader board
+- [ ] Update Modal Component
 
 ## 🚀 Getting started
 
