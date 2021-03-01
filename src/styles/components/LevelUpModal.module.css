@@ -11,6 +11,10 @@
   align-items: center;
 }
 
+.darkOverlay {
+  background: rgba(0, 0 ,0, 0.6);
+}
+
 .container {
   background: var(--white);
   width: 100%;
@@ -49,4 +53,16 @@
   background: transparent;
   border: 0;
   font-size: 0;
+}
+
+.darkMode {
+  background: #2E3236;
+}
+
+.darkMode strong {
+  color: #f5f5f5;
+}
+
+.darkMode p {
+  color: #f5f5f5;
 }

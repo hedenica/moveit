@@ -15,3 +15,11 @@
   gap: 6.25rem;
   align-content: center;
 }
+
+.lightMode {
+ background: var(--light-background);
+}
+
+.darkMode {
+  background: var(--dark-background);
+}

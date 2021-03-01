@@ -1,5 +1,8 @@
 import { useContext } from 'react'
 import { CountdownContext } from '../contexts/CountdownContext'
+import { ThemeContext } from '../contexts/ThemeContext';
+import clsx from 'clsx'
+
 import styles from '../styles/components/Countdown.module.css'
 
 const Countdown = () => {
@@ -11,13 +14,18 @@ const Countdown = () => {
     resetCountdown,
     startCountdown
   } = useContext(CountdownContext)
+  const { theme } = useContext(ThemeContext)
 
   const [minuteLeft, minuteRight] = String(minutes).padStart(2, '0').split('');
   const [secondLeft, secondRight] = String(seconds).padStart(2, '0').split('');
 
   return (
     <div>
-      <div className={styles.countdownContainer}>
+      <div className={clsx(
+        styles.countdownContainer,
+        theme === 'dark-mode' 
+        && styles.darkMode 
+      )}>
         <div>
           <span>{minuteLeft}</span>
           <span>{minuteRight}</span>

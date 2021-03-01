@@ -1,3 +1,9 @@
+.themeSwitcher {
+  display: flex;
+  justify-content: flex-end;
+}
+
+
 .profileContainer {
   display: flex;
   align-items: center;
@@ -26,4 +32,8 @@
 
 .profileContainer div p img {
   margin-right: 0.5rem;
+}
+
+.darkMode, .darkMode div strong {
+  color: #fff;
 }

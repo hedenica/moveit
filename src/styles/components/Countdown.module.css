@@ -85,3 +85,15 @@
   height: 20px;
   margin-left: 10px;
 }
+
+.darkMode div {
+  background: #2E3236;
+}
+
+.darkMode div span {
+  color: var(--white);
+}
+
+.darkMode span {
+  color: var(--white);
+}

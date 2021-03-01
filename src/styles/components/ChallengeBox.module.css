@@ -112,3 +112,12 @@
 .challengeActive footer button:hover {
   filter: brightness(0.9);
 }
+
+.lightMode {
+  background: var(--white);
+}
+ 
+.darkMode {
+  background: #2E3236;
+  color: var(--white) !important;
+}
